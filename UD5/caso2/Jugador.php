@@ -26,7 +26,7 @@ public function addPtos($ptos){
         $this->ptos=+$ptos;
 
     }else {
-        $this->ptos=0;
+        return 'se debe ingresar una cantidad mayor que 0';
     }
         
     
